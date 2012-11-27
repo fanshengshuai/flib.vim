@@ -1,5 +1,4 @@
-" Author fanshengshuai (fanshengshuai@gmail.com)
-
+" fanshengshuai
 " 环境设置
 let mapleader = ","
 let g:mapleader = ","
@@ -12,6 +11,9 @@ set helplang=cn
 " 关闭 vi 兼容模式
 set nocp
 set viminfo='20,\"50,:20,%,n~/.viminfo " Remember things between sessions
+
+" 加载 pathogen , vim 插件管理器
+call pathogen#infect()
 
 syntax on
 colorscheme koehler
